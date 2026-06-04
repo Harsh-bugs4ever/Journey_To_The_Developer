@@ -14,7 +14,7 @@ public class mem {
 		int data=10;
 		Calculator obj=new Calculator();
 		Calculator obj1=new Calculator();
-		int r1=obj.add(3,4);
+		int r1=obj.add(3,4);//since inside add method its sout(num) that is the reason its printing 5
 		//System.out.println(r1);
 		obj.num=8;
 		
